@@ -60,6 +60,10 @@ const MonitorSchema = mongoose.Schema(
 			type: Boolean,
 			default: true,
 		},
+		insecureSkipVerify: {
+			 type: Boolean,
+		 	 default: true, 
+		},
 		interval: {
 			// in milliseconds
 			type: Number,
